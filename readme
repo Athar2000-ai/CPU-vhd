@@ -1,0 +1,114 @@
+# 🧠 16-bit Custom CPU in VHDL
+
+This project is my own implementation of a fully working **16-bit CPU**, designed completely from scratch in **VHDL**.  
+Every component — the ALU, Registers, Instruction Decoder, Controller FSM, Memory Units, and the full Datapath —  
+was built manually based on a specification PDF.
+
+The result is a clean, structured CPU that executes instructions in a classic  
+**Fetch → Decode → Execute → Writeback → PC Update** sequence.
+
+---
+
+## 🚀 Features
+
+- Custom **24-bit instruction format**
+- **16-bit register file** (A, B, C)
+- **ALU** with arithmetic + logic operations
+- **Load / Store** instructions
+- **Read/Write Data Memory**
+- **Instruction Register** with proper field decode
+- **Program Counter** with auto-increment
+- **Finite State Machine Controller**
+- Complete **testbench** to verify the CPU
+
+---
+
+## 🧠 Architecture Overview
+  ┌─────────────┐
+  │ Program     │
+  │  Counter    │
+  └──────┬──────┘
+         ▼
+┌───────────────────────┐
+│ Instruction Memory │
+└─────────┬─────────────┘
+▼
+┌────────────────┐
+│ Instruction │
+│ Register │
+└──────┬──────────┘
+▼
+┌───────────────────────┐
+│ Controller (FSM) │── control signals
+└──────┬──────┬───────┬──┘
+▼ ▼ ▼
+Register A B ALU
+▼
+Register C
+▼
+Data Memory
+
+The controller drives all datapath components using a clean FSM,  
+and all instructions follow a predictable, readable flow.
+
+---
+
+## 🧪 Testing
+
+A dedicated testbench is included that:
+
+- Loads instructions directly into Instruction Memory  
+- Runs the CPU step-by-step  
+- Displays:
+  - `CPUout`
+  - `DMout`
+  - `Cout`
+  - Register values  
+  - ALU results  
+- Executes sample instructions like:
+  - Load A, Load B  
+  - Add, Sub, AND, OR  
+  - Store to Memory  
+  - Read from Memory  
+  - Exit  
+
+The simulation waveform shows every stage of execution.
+
+---
+
+## 📁 File Structure
+cpu.vhd → Top-level CPU
+cpu_alu_16.vhd → 16-bit ALU
+cpu_reg_16.vhd → 16-bit Register
+cpu_ir_24.vhd → Instruction Register
+cpu_controller.vhd → Controller FSM
+instr_mem.vhd → Instruction Memory
+data_mem.vhd → Data Memory
+mux2.vhd → Address multiplexer
+pc.vhd → Program Counter
+cpu_tb.vhd → Testbench
+
+
+---
+
+## 🌱 Future Work
+
+Planned enhancements:
+
+- Full **pipelined CPU** (IF, ID, EX, MEM, WB)
+- Hazard detection and forwarding
+- Multi-cycle instruction support
+- Branching and Jump instructions
+- Custom assembler to generate machine code
+
+---
+
+## ✨ Personal Note
+
+This CPU represents a complete end-to-end hardware design project —  
+from decoding instructions to debugging timing issues and managing control flow.  
+It reflects my learning journey in digital design, FPGA development, and CPU architecture.
+
+---
+
+If you like this project or want to build on it, feel free to star or fork the repo. 🙂
