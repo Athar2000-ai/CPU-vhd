@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/mux2.vhd" \
+"../../../../project_1.srcs/sources_1/new/instr_mem.vhd" \
+"../../../../project_1.srcs/sources_1/new/cpu_ir_24.vhd" \
+"../../../../project_1.srcs/sources_1/new/cpu_reg_16.vhd" \
+"../../../../project_1.srcs/sources_1/new/cpu_alu_16.vhd" \
+"../../../../project_1.srcs/sources_1/new/data_mem.vhd" \
+"../../../../project_1.srcs/sources_1/new/pc.vhd" \
+"../../../../project_1.srcs/sources_1/new/cpu_controller.vhd" \
+"../../../../project_1.srcs/sources_1/new/cpu.vhd" \
+"../../../../project_1.srcs/sim_1/new/cpu_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sim_1/new/cpu_tb.vhd,1764118938,vhdl,,,,cpu_tb,,,,,,,,
+E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/cpu.vhd,1764118950,vhdl,E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sim_1/new/cpu_tb.vhd,,,cpu,,,,,,,,
+E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/cpu_alu_16.vhd,1764035634,vhdl,E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/cpu.vhd,,,cpu_alu_16,,,,,,,,
+E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/cpu_controller.vhd,1764117432,vhdl,E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/cpu.vhd,,,cpu_controller,,,,,,,,
+E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/cpu_ir_24.vhd,1764035539,vhdl,E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/cpu.vhd,,,cpu_ir_24,,,,,,,,
+E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/cpu_reg_16.vhd,1764035595,vhdl,E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/cpu.vhd,,,cpu_reg_16,,,,,,,,
+E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/data_mem.vhd,1764118950,vhdl,E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/cpu.vhd,,,data_mem,,,,,,,,
+E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/instr_mem.vhd,1764116872,vhdl,E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/cpu.vhd,,,instr_mem,,,,,,,,
+E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/mux2.vhd,1764035449,vhdl,E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/cpu.vhd,,,mux2,,,,,,,,
+E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/pc.vhd,1764035699,vhdl,E:/Xilinx/Coumputer_Architecture/CPU/CPU_TOP/project_1/project_1.srcs/sources_1/new/cpu.vhd,,,pc,,,,,,,,

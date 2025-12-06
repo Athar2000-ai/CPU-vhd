@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Nov 24 20:34:18 2025
+# Process ID: 12156
+# Current directory: E:/Xilinx/Coumputer_Architecture/CPU/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log cpu.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source cpu.tcl -notrace
+# Log file: E:/Xilinx/Coumputer_Architecture/CPU/project_1/project_1.runs/impl_1/cpu.vdi
+# Journal file: E:/Xilinx/Coumputer_Architecture/CPU/project_1/project_1.runs/impl_1\vivado.jou
+# Running On: Muhammad, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 16, Host memory: 24993 MB
+#-----------------------------------------------------------
+source cpu.tcl -notrace
